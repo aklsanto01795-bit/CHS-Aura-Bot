@@ -13907,7 +13907,7 @@ async def cmd_allcommands(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
 
 def main() -> None:
     app = ApplicationBuilder().token(BOT_TOKEN).post_init(_post_init).build()
-    app._started_at = int(time.time())  # used by /uptime
+    app.bot_data["_started_at"] = int(time.time())
     _register_other_handlers(app)
 
     # Capture the triggering user_id of every Update into a ContextVar so that
