@@ -3605,7 +3605,7 @@ def language_label(code: str) -> str:
 # =============================================================================
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8940585917:AAEhrsIXN1I_w5XJHj44E6Fo8Bh2IJ0ufek")
 SUPPORT_LINK = os.environ.get("SUPPORT_LINK", "https://t.me/CHS_SAPPORT_TEAM")
-GROUP_LINK = os.environ.get("GROUP_LINK", "https://t.me/CHS_TEAM_OFC")
+GROUP_LINK = os.environ.get("GROUP_LINK", "https://t.me/CHS_SAPPORT_TEAM")
 CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "https://t.me/SantoBhaiOfc")
 
 
